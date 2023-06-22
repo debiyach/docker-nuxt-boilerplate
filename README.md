@@ -9,7 +9,7 @@ You can change it according to your purpose if you want.
 
 ## CMake Detection
 
-I added a makefile to quickly execute the project's commands. You must run the following code to use this file on your computer. 
+I added a `makefile` to quickly execute the project's commands. You must run the following code to use this file on your computer. 
 
 ```bash
 make --version
@@ -51,3 +51,4 @@ Production, build and force recreate:
 make prod-bfc
 ```
 
+To add more `Makefile` commands [go here](https://makefiletutorial.com/) and learn.
