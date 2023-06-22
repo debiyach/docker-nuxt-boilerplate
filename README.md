@@ -1,4 +1,4 @@
-# git
+# Dockerized Nuxt3 Boilerplate
 
 
 A boilerplate for Nuxt users who develop using Docker on their computer. It can be customized as development and production and you can reach the result without any effort. 
