@@ -9,6 +9,7 @@ services:
     container_name: "${CONTAINER_NAME}"
     ports:
       - ${NUXT_PORT-3000}:3000
+      - ${NUXT_HMR_PORT-24678}:24678
     volumes:
       - ./src/frontend:/frontend
       - node_modules-data:/frontend/node_modules
