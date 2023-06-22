@@ -1,0 +1,17 @@
+version: '3.8'
+
+
+services:
+  frontend:
+    build: 
+      context: ./src/
+      dockerfile: Dockerfile.development
+    container_name: "${CONTAINER_NAME}"
+    ports:
+      - ${NUXT_PORT-3000}:3000
+    volumes:
+      - ./src/frontend:/frontend
+      - node_modules-data:/frontend/node_modules
+
+volumes:
+  node_modules-data:

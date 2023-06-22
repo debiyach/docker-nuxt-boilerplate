@@ -1,0 +1,11 @@
+version: '3.8'
+
+
+services:
+  frontend:
+    build: 
+      context: ./src/
+      dockerfile: Dockerfile.production
+    container_name: "${CONTAINER_NAME}"
+    ports:
+      - ${NUXT_PORT-3000}:3000
